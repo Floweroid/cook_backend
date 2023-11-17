@@ -7,8 +7,8 @@ from .models import Recipe
 @admin.register(Recipe)
 class RecipeAdmin(admin.ModelAdmin):
     list_display = ('name', 'stuff', 'difficulty','tags','methods','tools','emojis')  # Fields to display in the list view
-    list_filter = ('stuff', 'difficulty','tags')  # Filters displayed in the right sidebar
-    # search_fields = ('name')  # Enable search functionality
+    # list_filter = ('stuff', 'difficulty','tags')  # Filters displayed in the right sidebar
+    search_fields = ('name')  # Enable search functionality
 
     fieldsets = (
         (None, {
