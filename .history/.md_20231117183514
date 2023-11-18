@@ -39,13 +39,8 @@ Admin Website
 - [x] clone 项目
 - [ ] 提供项目信息生成api 文档
 - [ ] 修改 stuff model
-  - [ ] api
+  - [ ] 画需求图
     - [ ] stuff
     - [ ] recipeitem
     - [ ] cookbook
-  - [ ] api template
-    - [ ] 需求列举
-    - [ ] 模板确认
-    - [ ] 响应数据格式
-    - [ ] 请求响应格式
 
