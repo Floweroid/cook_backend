@@ -2,6 +2,7 @@
 
 ## 0.配置该项目的 python 虚拟环境
 创建一个python虚拟环境create a virtual environment
+
     python -m venv <venv_name>
 
 激活虚拟环境activate the virtual environment:
