@@ -14,10 +14,6 @@
 
     pip install -r requirements.txt
 
-生成/更新 生成的python虚拟环境
-
-    pip freeze > requirement.txt
-
 关闭虚拟环境deactivate the virtual environment:
 
     deactivate
@@ -56,7 +52,13 @@
 
     deactivate
 
+添加包
 
+    pip install <package_name>
+
+生成/更新 生成的python虚拟环境
+
+    pip freeze > requirement.txt
 
 ## 2.测试开发 django 项目
 
