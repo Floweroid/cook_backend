@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     
     # backend add
     'rest_framework',
-    
-    # apps
     'recipes',
     'cookbook',
     
