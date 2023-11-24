@@ -1,6 +1,7 @@
 # cook_backend
 
 ## 0.配置该项目的 python 虚拟环境
+
 创建一个python虚拟环境create a virtual environment
 
     python -m venv <venv_name>
@@ -36,6 +37,12 @@
 - 选择 <venv_name>/Script/python.exe, 完成
 
 ![Alt text](docimg/image-2.png)
+
+新建 terminal 时 终端 自动启动虚拟环境, 输入行前方出现 (<venv_name>) 则为配置成功，该项目终端自动激活对应虚拟环境
+
+    PS F:\dictionary\Campus\Fall2023\CSE 389\Codes\project> & c:/Users/ZK/Desktop/Projects/omen_venv/Scripts/Activate.ps1
+
+    (omen_venv) PS F:\dictionary\Campus\Fall2023\CSE 389\Codes\project> 
 
 
 
