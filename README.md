@@ -10,9 +10,11 @@
     .\venv_name\Scripts\activate
 
 为虚拟环境安装python项目的依赖
+
     pip install -r requirements.txt
 
 生成/更新 生成的python虚拟环境
+
     pip freeze > requirement.txt
 
 关闭虚拟环境deactivate the virtual environment:
