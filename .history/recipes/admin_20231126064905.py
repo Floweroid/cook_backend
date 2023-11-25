@@ -27,9 +27,9 @@ class RecipeAdmin(admin.ModelAdmin):
     # ]
 
 # Register the Stuff model and the admin class
-@admin.register(Stuff) 
+@admin.site.register(Stuff) 
 # Define the admin class for Stuff
 class StuffAdmin(admin.ModelAdmin):
-    list_display = ('id','type','name', 'emoji')  # Customize displayed fields in the admin list
+    list_display = ('name', 'emoji')  # Customize displayed fields in the admin list
 
 

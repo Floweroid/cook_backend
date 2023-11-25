@@ -20,13 +20,6 @@ class Recipe(models.Model):
         return self.name
     
 class Stuff(models.Model):
-    STUFF_TYPE_CHOICES = [
-        ('meat', 'meat'),
-        ('vegi', 'vegetable'),
-        ('staple', 'staple'),
-        ('tools','tools')
-    ]
-    type = models.CharField(max_length=10, choices=STUFF_TYPE_CHOICES, default='', blank=True)
     name = models.CharField(max_length=12, unique= True)
     emoji = models.CharField(max_length=6)
     
