@@ -12,7 +12,7 @@ class RecipeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Recipe
-        fields = ('name', 'link', 'stuff', 'tools')
+        fields = ('id', 'name', 'link', 'stuff', 'tools')
 
     def get_stuff(self, obj):
         return [stuff.name for stuff in obj.stuff.all()]
