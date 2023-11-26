@@ -6,7 +6,6 @@ from .models import Recipe, Stuff
 
 @admin.register(Recipe)
 class RecipeAdmin(admin.ModelAdmin):
-    list_display = ('name', 'link', 'display_stuff', 'display_tools')  # Use custom methods for display
     def display_stuff(self, obj):
         return ', '.join([stuff.name for stuff in obj.stuff.all()]) if obj.stuff.exists() else '-'
 
